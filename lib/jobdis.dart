@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:workshala/loadingpage.dart';
+import 'package:workshala/uploadScreen.dart';
 import 'package:workshala/utilities.dart';
 
 class jobDisPage extends StatefulWidget {
@@ -561,7 +562,7 @@ class jobDisDetail extends StatelessWidget {
                       //       // ),
                       //     ])
                     ])))),
-        applyButtonBox('Apply', 320.0, 45.0, jobDisDetail(), loadingPage()),
+        applyButtonBox('Apply', 320.0, 45.0, jobDisDetail(), uploadScreen()),
       ],
     ));
   }

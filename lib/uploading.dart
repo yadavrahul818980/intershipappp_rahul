@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:workshala/loadingpage.dart';
+import 'package:workshala/uploaded.dart';
 import 'package:workshala/utilities.dart';
 import 'package:workshala/jobdis.dart';
 import 'package:workshala/loadingpage.dart';
@@ -126,7 +127,7 @@ class uploadingScreen extends StatelessWidget {
             ),
           ])),
       SizedBox(height: 75),
-      applyButtonBox('Cancel', 171.0, 50.0, null, null),
+      applyButtonBox('Cancel', 171.0, 50.0, uploadingScreen(), uploadedScreen()),
     ]));
   }
 }
